@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:300,600');
+@import "./vars/colors.scss";
+@import "./vars/layout.scss";
+@import "./vars/fonts.scss";
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    height: 100%;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+
+  p,
+  a,
+  span {
+    color: $text-grey;
+  }
+  .paddingRowBottom{
+    padding-bottom: 20px;
+  }
+  .paddingReset{
+    padding:0
+  }
+  .dashboardContent{
+    padding-top: 70px;
+    min-height: 80vh;
+    .container{
+      padding-bottom:40px; 
+    }
+  }
+  .btn{
+    border-color:$primary;
+    color: $primary;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: $large-radius;
+
+    &:hover{
+      background-color: $primary!important;
+      border-color:$primary;
+      color: #fff;
+    }
+  }
+  .btn-primery{
+    background-color: $primary!important;
+    color: #fff;
+  }
+  .form-control{
+    border-radius: $large-radius;
+  }
+  .page-link{
+    color: $primary;
+
+    &:focus{
+      border-color:$primary!important;
+      box-shadow: 0 0 0 0.2rem rgb(255, 255, 255);
+    }
+  }
+  .page-item.active .page-link{
+    background-color: $primary!important;
+    border-color:$primary;
+    color: #fff;
+  }
+  

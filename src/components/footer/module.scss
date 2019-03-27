@@ -1,0 +1,62 @@
+footer {
+    position: relative;
+    clear:both;
+    .content{
+        background: #f0f0f0; 
+
+        .container{
+            padding-bottom: 20px; 
+        }
+    }
+    H5{
+        margin: 30px 0 15px 0;
+        padding-bottom: 10px;
+        border-bottom: 1px dashed #d0d0d0;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .nav-link {
+        padding: .2rem 0rem;
+    }
+    .social
+        a{
+            display: block;
+            width: 45px;
+            height: 45px;
+            border: 1px solid #c0c0c0;
+            border-radius: 50%;
+            text-indent: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            background-size: 35px !important;
+            background-color: #d0d0d0 !important;
+            margin-right: 15px;
+            text-indent:1000px;
+            
+            &:hover{
+                background-color: #c0c0c0 !important;
+            }
+        }
+        .twitter {
+            background: url(../../assets/icon/icon_twitter.svg) center center no-repeat;
+        }
+        .facebook {
+            background: url(../../assets/icon/icon_facebook.svg) center center no-repeat;
+        }
+        .linkedin {
+            background: url(../../assets/icon/icon_linkedin.svg) center center no-repeat;
+        }
+        .instagram {
+            background: url(../../assets/icon/icon_instagram.svg) center center no-repeat;
+        }
+    .contactEmail a {
+        padding-left: 35px;
+        color: #333;
+        background: url(../../assets/icon/icon_mail.svg) 0 3px no-repeat;
+    }
+    .copyright{
+        padding: 30px 0 0 0;
+        background: #e0e0e0;
+    }
+}
